@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 50px 20px;
+	background: rgb(112,12,31);
+	background: linear-gradient(90deg, rgba(112,12,31,0.992515756302521) 0%, rgba(169,27,63,0.9897146358543417) 35%);
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto; /* Default, grows with content */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: Crimson;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;  /* Adds space to the left side of each button */
+    margin-right: 5px; /* Adds space to the right side of each button */  
+}
+
+button:hover {
+    background-color: DarkRed;
+}
+
+input[type="text"] {
+    width: 50%;         /* Makes the input field take up the full width of its container */
+    padding: 10px;       /* Adds padding inside the input box */
+    font-size: 16px;     /* Increases the font size */
+    height: 40px;        /* Adjust the height of the text box */
+    box-sizing: border-box; /* Ensures padding is included in the width and height */
+}
+

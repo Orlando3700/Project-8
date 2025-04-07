@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv = "X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>To-Do List App</title>
+<link rel="stylesheet" href="styleList.css">
+</head>
+<body>
+<div class="jumbotron">
+  	<div class="container text-center">
+    <div class="header">
+      <h2 id="listTitle">Tasks for: </h2> <!-- This will show the current list title -->    
+      <!-- <h2 style="margin:5px">Tasks for <span id="listTitle"></span></h2> -->  
+      <input type="text" id = "taskInput" placeholder = "Add a new task">
+      <button id="addTaskButton">Add Task</button> <!-- Add Task Button -->
+      <button id="backButton" onclick="window.history.back()">Back</button>
+	</div>
+</div>
+</div>
+<div id="list-container"></div> 
+<ul id="taskListContainer"></ul>  
+    <script src="taskList.js"></script>
+</body>
+</html>
+
